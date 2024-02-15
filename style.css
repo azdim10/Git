@@ -1,0 +1,81 @@
+.page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c4c4c4;
+    align-items: center;
+    font-family: 'Roboto';
+}
+/* .tittle{
+    
+} */
+.search{
+    margin-top:70px;
+    display: flex;
+    flex-direction: column;
+}
+.search_repo{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 7px;
+    width: 498px;
+    height: 44px;
+    background-color:#e3e3e3;
+    border: 2px solid black;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+.search_repo:hover{
+    background-color: #65CDF9;
+}
+.search_string {
+    padding: 0;
+    padding-left: 7px;
+    background-color: white;
+    outline: none;  
+    border: none;
+    width: 501px;
+    height: 61px;
+    font-size: 48px;
+    display: flex;
+    font-family: 'Roboto';
+    line-height: 56.25px;
+}
+.search_results{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.favorites{
+    width: 503px;
+    margin-top: 10px    ;
+}
+.favorites_repo{
+    background-color: #e27BEB;
+    height: 101px;
+    border: 1px solid black;
+    font-family: 'Roboto';
+    font-weight:400;
+    font-size: 24px;
+    line-height: 28.13px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 8px;
+    position: relative;
+}
+.favorites_repo_name{
+    font-family: 'Roboto';  
+}
+.favorites_repo-button{
+background: url('./Vector\ 7\ \(1\).svg') no-repeat, url('./Vector\ 8\ \(1\).svg') no-repeat;
+border: none;
+width: 45px;
+height:42px ;
+position: absolute;
+right: 34px;
+top: 30px;
+}
