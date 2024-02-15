@@ -55,7 +55,6 @@ export class View {
                 const repoStars = this.elementCreate('li', 'favorites_repo_stars');
                 repoElement.appendChild(repoStars);
                 const removeButton = this.elementCreate('button', 'favorites_repo-button');
-                removeButton.img = './delete.png'
                 repoElement.appendChild(removeButton);
                 const repoData = await this.api.loadRepoData(ownerName, name);
                 repoName.textContent = 'Name: ' + repoData.repoName;
